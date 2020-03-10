@@ -161,6 +161,12 @@ organization_policies:
     #Apply to accounts in the following OU(s)
     apply_to_accounts_in_ou:
       - applications
+  - name: aws-landing-zone-non-core-mandatory-preventive-guardrails
+    description: To prevent from deleting or disabling resources in application accounts managed by AWS Landing Zone
+    policy_file: policies/aws-landing-zone-non-core-mandatory-preventive-guardrails.json
+    #Apply to accounts in the following OU(s)
+    apply_to_accounts_in_ou:
+      - applications
       
 # Landing Zone Service Catalog portolfios/products (Optional/Baseline)
 portfolios:
