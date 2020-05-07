@@ -161,12 +161,15 @@ organization_policies:
     #Apply to accounts in the following OU(s)
     apply_to_accounts_in_ou:
       - applications
-  - name: aws-landing-zone-non-core-mandatory-preventive-guardrails
-    description: To prevent from deleting or disabling resources in application accounts managed by AWS Landing Zone
-    policy_file: policies/aws-landing-zone-non-core-mandatory-preventive-guardrails.json
+      - test
+  - name: ised-restrict-region
+    description: Restrict the solution to Canada zone and in some cases to North Virginia
+    policy_file: policies/ised-restrict-region.json
     #Apply to accounts in the following OU(s)
     apply_to_accounts_in_ou:
+      - core
       - applications
+      - test
       
 # Landing Zone Service Catalog portolfios/products (Optional/Baseline)
 portfolios:

@@ -4,7 +4,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -20,7 +23,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -38,7 +44,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -57,7 +66,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -83,7 +95,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -104,7 +119,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -130,7 +148,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -149,7 +170,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
@@ -165,7 +189,10 @@
         {
             "Condition": {
                 "ArnNotLike": {
-                    "aws:PrincipalARN": "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole"
+                    "aws:PrincipalARN": [
+                        "arn:aws:iam::*:role/AWSCloudFormationStackSetExecutionRole",
+                        "arn:aws:iam::*:role/AWSCloudFormationStackExecutionRole"
+                    ]
                 }
             },
             "Action": [
